@@ -258,9 +258,7 @@ color:#FFF;
 }
 
 .portfolio-menu-item {
-    display: flex;
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
-    flex-direction: column;
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-title {
@@ -274,6 +272,12 @@ color:#FFF;
         margin-bottom: 72px;
 }
 
+.portfolio-menu-text {
+    padding: 32px 16p;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
 
 .portfolio-item-name {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -281,7 +285,6 @@ color:#FFF;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        padding: 32px 0px 8px 16px;
     }
 
 .portfolio-text {
@@ -290,18 +293,11 @@ color:#FFF;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        padding: 0px 0px 32px 16px;
 }
 
 .footer {
     background: var(--NAVY-BLUE, #2E2F42);
-}
-
-.footer-menu {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    justify-content: flex-start;
+    padding: 100px 0;
 }
 
 .footer-logo {
@@ -312,6 +308,8 @@ color: var(--IRIS, #4D5AE5);
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-studio {
