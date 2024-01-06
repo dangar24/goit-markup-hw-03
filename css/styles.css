@@ -26,10 +26,13 @@ ul {
     margin: 0;
 }
 
+img {
+    display: block;
+}
+
 .container {
-    max-width: 1158px;
-    display: flex;
-        align-items: center;
+    padding: 120px 0;
+        max-width: 1158px;
         margin: 0 auto;
 }
 
@@ -41,7 +44,10 @@ ul {
 
 .header-container {
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
-    
+    display: flex;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0px 15px;
 }
 
 .nav-container {
@@ -74,6 +80,7 @@ color: #2E2F42;
 .header-menu {
     display: flex;
     gap: 40px;
+    padding: 24px 0px;
 }
 
 .menu-item {
